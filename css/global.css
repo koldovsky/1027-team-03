@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
