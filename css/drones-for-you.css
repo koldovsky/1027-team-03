@@ -3,6 +3,14 @@
     float:left;
 }
 .girls-with-drone{
-    width:40%;
+    width:50%;
     float:right;
+}
+p{
+    color: #1c1d1e;
+    font-size: 40px;
+}
+.drone-useful p, .striker-drones-best p{
+    font-size:18px;
+    color:#1c1d1e;
 }
