@@ -15,3 +15,8 @@ img {
     display: block;
     width: 100%;
 }
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
