@@ -1,5 +1,7 @@
 .gallery__container {
 	margin: 30px;
+    color: var(--main-text-color);
+    align-content: center;
 }
 
 .gallery_images_item {
@@ -13,3 +15,4 @@
 	height: auto;
     margin: 15px;
 }
+
