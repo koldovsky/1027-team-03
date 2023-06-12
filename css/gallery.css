@@ -1,0 +1,15 @@
+.gallery__container {
+	margin: 30px;
+}
+
+.gallery_images_item {
+    display: flex;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+.gallery_images_item img {
+	width: 50%;
+	height: auto;
+    margin: 15px;
+}
