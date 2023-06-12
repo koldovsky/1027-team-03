@@ -1,17 +1,16 @@
+.drones-needs{
+    display: flex;
+    flex-direction: row;
+}
 .text__drones-needs{
-    width:50%;
-    float:left;
-    padding: 0px 35px;
+    background-color: #f0f0f0;
 }
-.girls-with-drone{
-    width:50%;
-    float:right;
-}
-p{
-    color: #1c1d1e;
+.pre-title__text__drones-needs{
     font-size: 40px;
-}
-.drone-useful p, .striker-drones-best p{
-    font-size:18px;
     color:#1c1d1e;
+    width: 405px;
+}
+.text__drones-needs{
+    display: grid;
+    grid-template-columns: ;
 }
