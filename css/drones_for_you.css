@@ -1,9 +1,11 @@
 .drones-needs{
     display: flex;
     flex-direction: row;
+    padding: 120px 0px 100px;
 }
 .text__drones-needs{
     background-color: #f0f0f0;
+    padding: 0px 45px;
 }
 .pre-title__text__drones-needs{
     font-size: 40px;
@@ -12,5 +14,6 @@
 }
 .text__drones-needs{
     display: grid;
-    grid-template-columns: ;
+    grid-template-columns:470px;
+    grid-template-rows: 51px 32px 116px 137px 90px;
 }
