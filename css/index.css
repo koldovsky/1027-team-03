@@ -1,11 +1,16 @@
 @import url(global.css);
 @import url(header.css);
-@import url(contacts.css);
-@import url(services.css);
-@import url(faq.css);
-@import url(footer.css);
-@import url(drones-for-you.css);
+@import url(striker_drones.css);
+@import url(about.css);
+@import url(easy_to_use.css);
+@import url(drones_for_you.css);
+@import url(our_drones.css);
 @import url(gallery.css);
-
+@import url(rent.css);
+@import url(blog.css);
+@import url(comments.css);
+@import url(faq.css);
+@import url(contacts.css);
+@import url(footer.css);
 
 
