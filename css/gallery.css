@@ -1,0 +1,30 @@
+.gallery__container {
+	margin: 30px;
+    color: var(--main-text-color);
+    align-content: center;
+}
+
+.gallery_images_item {
+    display: flex;
+    margin: 15px;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.gallery_images_item img {
+	width: 50%;
+	height: auto;
+    margin: 15px;
+}
+
+@media (max-width: 500px) {
+    .gallery_images_item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery_images_item img {
+        width: 100%;
+    }
+}

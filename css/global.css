@@ -9,9 +9,16 @@
 :root {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
+    --main-text-color: black;
+    --context-text-color: white;
 }
 
 img {
     display: block;
     width: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
 }

@@ -1,0 +1,33 @@
+.drones-needs{
+    display:flex;
+    height: 746px;
+}
+
+.text__drones-needs{
+    padding: 120px 70px 45px 67px;
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns:470px;
+    grid-template-rows: 94px 49px 116px 162px 50px;
+}
+
+.pre-title__text__drones-needs{
+    font-size: 40px;
+    color:#1c1d1e;
+    width: 405px;
+}
+
+.button-drone{
+    background-color: #f52e62;
+    border-width: 0px;
+    height: 50px;
+    width: 179px;
+    color: white;
+    font-weight: 700;
+}
+.drone-useful{
+    width: 430px;
+}
+.striker-drones-best{
+    width: 467px;
+}
