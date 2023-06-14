@@ -1,3 +1,5 @@
+LINK TO THIS SAIT https://koldovsky.github.io/1027-team-03/
+
 # HTML Template Repository with HTML Proofer
 
 This template repository includes preconfigured GitHub Action that will validate html files in a project with (HTMLProofer)[https://github.com/gjtorikian/html-proofer/].
