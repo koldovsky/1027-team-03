@@ -1,0 +1,16 @@
+.header {
+    background-color:#1c1d1e;
+    margin: auto;
+    display: flex;
+    padding: 30px 24px;  
+}
+
+.header__logo-container {
+    width: 122px;
+    height: auto;
+}
+
+.header__nav {
+    font-size: 16px;
+    color: #FFFFFF;
+}
