@@ -1,0 +1,7 @@
+.footer__container{
+    background-image: url(/img/footer\ size\ 544x110.jpg);
+	background-attachment: fixed;
+	background-position: bottom left;
+	background-size: 544px 110px;
+    background-repeat: no-repeat;
+}
