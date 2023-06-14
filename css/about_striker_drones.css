@@ -1,0 +1,24 @@
+.about {
+    background-image: url(/img/about_background.png);
+    background-size: cover;
+}
+
+span {
+    color: white;
+}
+
+.span_line_below {
+    color: #c5c5c5;
+}
+
+.drones__aviable {
+    display: flex;
+  }
+  
+  .drone__models {
+    display: flex;
+  }
+
+  .clients {
+    display:flex;
+  }
