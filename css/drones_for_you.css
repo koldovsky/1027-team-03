@@ -4,7 +4,7 @@
 }
 
 .text__drones-needs{
-    padding: 120px 116px 45px 61px;
+    padding: 120px 70px 45px 67px;
     background-color: #f0f0f0;
     display: grid;
     grid-template-columns:470px;
@@ -25,7 +25,6 @@
     color: white;
     font-weight: 700;
 }
-
 .drone-useful{
     width: 430px;
 }
