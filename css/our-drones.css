@@ -21,7 +21,7 @@
 }
 .drones-info{
     max-width: 100%;
-    background-image:url(/img/our-drones/our-drones-background.webp);
+    background-image:url(../img/our-drones/our-drones-background.webp);
     background-attachment: fixed;
 }
 .carousel-align{
