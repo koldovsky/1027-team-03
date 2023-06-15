@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
+
 
 * {
     margin: 0;
@@ -9,8 +10,13 @@
 :root {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
-    --main-text-color: black;
-    --context-text-color: white;
+    --main-text-color: #000000;
+    --context-text-color: #ffffff;
+    --white-gray: #f0f0f0;
+    --black-gray: #1c1d1e;
+    --red-pink: #f52e62;
+    --gray: #515151;
+    --light-green: #0ad19d;
 }
 
 img {

@@ -1,34 +1,48 @@
-.drones-needs{
-    display:flex;
+.drones-needs {
+    display: flex;
     height: 746px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
 }
-
-.text__drones-needs{
+.text__drones-needs {
     padding: 120px 116px 45px 61px;
-    background-color: #f0f0f0;
+    background-color: var(--white-gray);
     display: grid;
-    grid-template-columns:470px;
-    grid-template-rows: 94px 49px 116px 162px 50px;
+    grid-template-columns: 470px;
+    grid-template-rows: 94px 49px 163px 162px 50px;
+}
+.pre-title__text__drones-needs {
+    font-size: 34px;
+    color: var(--black-gray);
+    width: 406px;
+    font-family: Fjalla, sans-serif;
+    letter-spacing: 0.048px;
 }
 
-.pre-title__text__drones-needs{
-    font-size: 40px;
-    color:#1c1d1e;
-    width: 405px;
-}
-
-.button-drone{
-    background-color: #f52e62;
+.button-drone {
+    background-color: var(--red-pink);
     border-width: 0px;
     height: 50px;
     width: 179px;
-    color: white;
+    color: var(--context-text-color);
     font-weight: 700;
+    font-size: 12px;
+    transition-duration: 0.3s;
 }
-
-.drone-useful{
-    width: 430px;
+.button-drone:hover{
+    background-color: var(--light-green);
 }
-.striker-drones-best{
+.drone-useful {
+    width: 463px;
+    font-size: 18px;
+    color: var(--black-gray);
+}
+.striker-drones-best {
     width: 467px;
+    font-size: 16;
+    color: var(--gray);
+}
+.girls_and_drone {
+    max-width: 100%;
+    max-height: 100%;
 }
