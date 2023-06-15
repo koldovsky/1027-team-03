@@ -1,12 +1,12 @@
 .drones-needs {
     display: flex;
     height: 746px;
+    width:100%;
     font-family: Lato, sans-serif;
     font-weight: 400;
 }
 .text__drones-needs {
     padding: 120px 116px 45px 61px;
-    background-color: var(--white-gray);
     display: grid;
     grid-template-columns: 470px;
     grid-template-rows: 94px 49px 163px 162px 50px;
@@ -14,11 +14,9 @@
 .pre-title__text__drones-needs {
     font-size: 34px;
     color: var(--black-gray);
-    width: 406px;
     font-family: Fjalla, sans-serif;
     letter-spacing: 0.048px;
 }
-
 .button-drone {
     background-color: var(--red-pink);
     border-width: 0px;
@@ -42,7 +40,14 @@
     font-size: 16;
     color: var(--gray);
 }
-.girls_and_drone {
-    max-width: 100%;
-    max-height: 100%;
+.girls-and-drone {
+    width: 50%;
+    object-fit: cover;
+}
+.align-center-drones-needs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-gray);
+    width: 50%;
 }
