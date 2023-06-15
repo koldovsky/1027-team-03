@@ -1,13 +1,13 @@
 .after-title-text {
     width: 488px;
     margin: auto;
-    color: white;
+    color: var(--context-text-color);
     font-family: Lato, sans-serif;
 }
 .title-our-drones {
     width: 162px;
     margin: auto;
-    color: white;
+    color: var(--context-text-color);
     font-size: 34px;
     font-family: Fjalla One, sans-serif;
 }
