@@ -2,11 +2,14 @@
     width: 488px;
     margin: auto;
     color: white;
+    font-family: Lato, sans-serif;
 }
 .title-our-drones {
-    width: 100px;
+    width: 162px;
     margin: auto;
     color: white;
+    font-size: 34px;
+    font-family: Fjalla One, sans-serif;
 }
 .our-drones-content {
     display: grid;
