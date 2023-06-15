@@ -1,0 +1,12 @@
+.contacts__container_cover {
+	background-image: url("../img/cover_contacts.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 20px;
+	color: var(--context-text-color);
+	font-family: "Lato";
+	font-weight: 400;
+	
+}

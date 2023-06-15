@@ -1,9 +1,9 @@
 .about {
-    background-image: url(/img/about_background.png);
+    background-image: url("../img/about_background.png");
     background-size: cover;
 }
 
-span {
+.span {
     color: white;
 }
 
@@ -13,12 +13,12 @@ span {
 
 .drones__aviable {
     display: flex;
-  }
+}
   
-  .drone__models {
+.drone__models {
     display: flex;
-  }
+}
 
-  .clients {
+.clients {
     display:flex;
-  }
+}
