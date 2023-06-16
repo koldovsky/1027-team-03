@@ -1,16 +1,30 @@
 .header {
-    background-color:#1c1d1e;
+    background-color: black;
     margin: auto;
+    padding: 30px 24px;
     display: flex;
-    padding: 30px 24px;  
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo-container {
     width: 122px;
     height: auto;
+    margin-left: 24px;
 }
 
 .header__nav {
+    font-family: Lato, sans-serif;
     font-size: 16px;
-    color: #FFFFFF;
+    margin-right: 24px;
+}
+
+.header__nav-item {
+    text-decoration: none;
+    color: var(--nav-color);
+    padding: 10px;
+}
+
+.header__nav-item:hover {
+    color: var(--light-green);
 }
