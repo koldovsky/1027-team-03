@@ -25,3 +25,10 @@
     font-size: 34px;
     font-family: Fjalla One, sans-serif;
 }
+
+.faq__title-description{
+    width: 488px;
+    margin: auto;
+    color: var(--context-text-color);
+    font-family: Lato, sans-serif;
+}
