@@ -1,0 +1,14 @@
+
+.faq{
+    max-width: 100%;
+    background-image: url(../img/faq-background.webp);
+    background-attachment: fixed;
+}
+
+.faq__title{
+    width: 162px;
+    margin: auto;
+    color: var(--context-text-color);
+    font-size: 34px;
+    font-family: Fjalla One, sans-serif;
+}
