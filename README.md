@@ -18,8 +18,8 @@ Team table https://docs.google.com/spreadsheets/d/1cK7NlPZ2SP5RYFOi8QxV9Fj1ru3X3
 |   9    |   Васюта Назар        |        blog          |
 |   10   | Александров Владислав |      comments        |
 |   11   |   Патук Тетяна        |         FAQ          |
-|   12   |                       |       contacts       |
-|   13   |      Григорій         |        footer        |
+|   12   |  Мельник Григорій     |       contacts       |
+|   13   |  Мельник Григорій     |        footer        |
 
 
 # HTML Template Repository with HTML Proofer
