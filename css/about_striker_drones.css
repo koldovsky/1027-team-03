@@ -4,11 +4,11 @@
 }
 
 .span {
-    color: white;
+    color: var(--context-text-color);
 }
 
 .span_line_below {
-    color: #c5c5c5;
+    color: var(--white-gray);
 }
 
 .drones__aviable {
