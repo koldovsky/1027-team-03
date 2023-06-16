@@ -1,12 +1,24 @@
 
 .faq{
-    max-width: 100%;
-    background-image: url(../img/faq-background.webp);
-    background-attachment: fixed;
-    justify-content: center;
-}
+        max-width: 100%;
+        background-image: url(../img/faq-background.webp);
+        background-attachment: fixed;
+    }
 
-.faq__title{
+    .align-block {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .faq-title {
+        display: grid;
+        grid-template-columns: 488px;
+        grid-template-rows: 76px 0px 112px 400px;
+        text-align: center;
+    }
+
+  .faq__title{
     width: 162px;
     margin: auto;
     color: var(--context-text-color);
