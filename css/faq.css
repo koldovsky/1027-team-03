@@ -3,6 +3,8 @@
     max-width: 100%;
     background-image: url(../img/faq-background.webp);
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
 }
 
 .faq__title{
