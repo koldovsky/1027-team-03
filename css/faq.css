@@ -14,7 +14,7 @@
     .faq-title {
         display: grid;
         grid-template-columns: 488px;
-        grid-template-rows: 76px 0px 112px 400px;
+        grid-template-rows: 76px 400px 112px 400px;
         text-align: center;
     }
 
