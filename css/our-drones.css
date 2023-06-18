@@ -31,3 +31,18 @@
     display: flex;
     justify-content: center;
 }
+
+@media(max-width: 320px) {
+    .our-drones-content {
+        grid-template-columns: 305px;
+    }
+    .drones-examples {
+        width: 272px;
+    }
+    .title-our-drones {
+        width: 172px;
+    }
+    .after-title-text{
+        width: 267px;
+    }
+}
