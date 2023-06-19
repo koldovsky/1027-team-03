@@ -9,3 +9,17 @@
     color: var(--context-text-color);
     font-family: Fjalla, sans-serif;
 }
+.strikerdrones__bttn-rent {
+    background-color: var(--red-pink);
+    border-width: 0px;
+    height: 50px;
+    width: 179px;
+    color: var(--context-text-color);
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 13.2px;
+    transition-duration: 0.3s;
+}
+.strikerdrones__bttn-rent:hover {
+    background-color: var(--light-green);
+}
