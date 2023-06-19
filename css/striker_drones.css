@@ -1,0 +1,11 @@
+.striker_drones {
+    background-image: url("../img/main_page_drone.png");
+    background-size: cover;
+
+}
+.strikerdrones__title {
+    font-size: 140px;
+    text-transform: uppercase;
+    color: var(--context-text-color);
+    font-family: Fjalla, sans-serif;
+}
