@@ -3,7 +3,7 @@
 
 class SmallestIntegerFinder {
     findSmallestInt(args) {
-      return Math.min(...args)
+      return Math.min(...args);
     }
   }
   
@@ -13,7 +13,6 @@ class SmallestIntegerFinder {
   function circleCircumference(circle) {
     return 2 * Math.PI * circle.radius;
   }
-  
   
   // TASK >>>>> Training JS #12: loop statement --for..in and for..of
   // LINK >>>>>  https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
@@ -26,3 +25,4 @@ class SmallestIntegerFinder {
     }
     return five;
   }
+  

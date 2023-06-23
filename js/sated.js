@@ -3,7 +3,7 @@
 
 class SmallestIntegerFinder {
   findSmallestInt(args) {
-    return Math.min(...args)
+    return Math.min(...args);
   }
 }
 
@@ -13,7 +13,6 @@ class SmallestIntegerFinder {
 function circleCircumference(circle) {
   return 2 * Math.PI * circle.radius;
 }
-
 
 // TASK >>>>> Training JS #12: loop statement --for..in and for..of
 // LINK >>>>>  https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
@@ -26,12 +25,6 @@ function giveMeFive(obj) {
   }
   return five;
 }
-
-
-
-
-
-
 
 // TASK >>>>> Training JS #11: loop statement --break, continue
 // LINK >>>>>  https://www.codewars.com/kata/5721c189cdd71194c1000b9b
@@ -53,16 +46,15 @@ function grabDoll(dolls) {
   return bag;
 }
 
-
 // TASK >>>>> A wolf in sheep's clothing
 // LINK >>>>> https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
 
 function warnTheSheep(queue) {
-  const wolfIndex = queue.indexOf("wolf");                                            
-  if (wolfIndex === queue.length - 1) {                                               
-    return "Pls go away and stop eating my sheep";                                    
+  const wolfIndex = queue.indexOf("wolf");
+  if (wolfIndex === queue.length - 1) {
+    return "Pls go away and stop eating my sheep";
   } else {
-    const sheepPosition = queue.length - wolfIndex - 1;                               
-    return `Oi! Sheep number ${sheepPosition}! You are about to be eaten by a wolf!`; 
+    const sheepPosition = queue.length - wolfIndex - 1;
+    return `Oi! Sheep number ${sheepPosition}! You are about to be eaten by a wolf!`;
   }
 }
