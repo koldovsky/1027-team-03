@@ -58,3 +58,46 @@ function warnTheSheep(queue) {
     return `Oi! Sheep number ${sheepPosition}! You are about to be eaten by a wolf!`;
   }
 }
+
+// опційна поглиблена задачка про замикання
+// https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
+
+function buildFun(n) {
+  var res = [];
+
+  for (let i = 0; i < n; i++) {
+    res.push(function () {
+      return i;
+    });
+  }
+
+  return res;
+}
+
+// опційна поглиблена задачка про наслідування
+// https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript
+
+class Shark extends Animal {
+  constructor(name, age, status) {
+    super(name, age, 0, "shark", status);
+  }
+}
+
+class Cat extends Animal {
+  constructor(name, age, status) {
+    super(name, age, 4, "cat", status);
+  }
+  introduce() {
+    return `${super.introduce()}  Meow meow!`;
+  }
+}
+
+class Dog extends Animal {
+  constructor(name, age, status, master) {
+    super(name, age, 4, "dog", status);
+    this.master = master;
+  }
+  greetMaster() {
+    return `Hello ${this.master}`;
+  }
+}
