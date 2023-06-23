@@ -29,22 +29,19 @@ function giveMeFive(obj){
 //Task4 https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
 
 function buildFun(n) {
-
-	var res = []
-  
-  function createFunc(num) {
-    return function() {
-      return num;
-    }
-  }
-  
+	var res = [];
+	
+	function createFunc(num) {
+	    return function() {
+	      return num;
+	    }
+	  }
 	for (var i = 0; i< n; i++) {
 		res.push(createFunc(i))
 	}
-  
-	return res
-  
-}
+	return res;
+	  
+	}
 
 
 //Task5 https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript
