@@ -1,0 +1,61 @@
+.rent__background-image {
+	background-image: url("../img/rent-background.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 20px;
+    height: 600px;
+	color: var(--context-text-color);
+	font-family: "Lato";
+	font-weight: 400;
+ }
+
+ .rent__want-to-rent-a-drone {
+    margin: auto;
+    position: relative;
+    top: 25%;
+    height: 440px;
+    width: 470px;
+    float: right;
+    margin-right: 15%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* background-color:blue; */
+ }
+
+ .rent__text-container{
+    width: 90%;
+    margin: 0 auto;
+    /* text-align: center; */
+ }
+ .rent__headline {
+    display: block;
+    /* text-align: center; */
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #1c1d1e;
+    width: 100%;
+ }
+
+ .rent__offer {
+    display: block;
+    margin-top: 35px;
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+ }
+
+ .rent__button-color {
+   background-color: #0ad19d;
+   height: 50px;
+   width: 125px;
+   display: block;
+   transition: 0.2s;
+ }
+
+ .rent__button-color:hover {
+   background-color: red;
+   transition: 0.2s;
+ }
