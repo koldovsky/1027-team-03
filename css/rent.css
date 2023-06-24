@@ -10,19 +10,6 @@
    z-index: 1;
 }
 
-.rent__want-to-rent-a-drone {
-   position: relative;
-   right: 215px;
-   height: 100%;
-   width: 34%;
-   padding: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: rgba(236, 236, 236, 1);
-   box-sizing: border-box;
-
-}
 
 .lines {
    display: flex;
@@ -99,17 +86,7 @@
    background-color: #d84b5e;
    transition: 0.2s;
 }
-.rent {
-   background-image: url("../img/rent-background.png");
-   background-repeat: no-repeat;
-   background-attachment: local;
-   background-size: cover;
-   /*background-position: -290px 100%;*/
-   height: 580px;
-   display: flex;
-   justify-content: flex-end;
-   z-index: 1;
-}
+
 
 .rent__want-to-rent-a-drone {
    position: relative;
@@ -153,9 +130,9 @@
    flex-direction: column;
    flex-wrap: wrap;
    gap: 37px;
-   min-height: 367px; 
+   min-height: 367px;
    box-sizing: border-box;
-   position: relative; 
+   position: relative;
  }
 
 .rent__headline {
@@ -171,9 +148,9 @@
 }
 
 .rent__offer {
-   flex: 1; 
-   display: flex; 
-   align-items: flex-start; 
+   flex: 1;
+   display: flex;
+   align-items: flex-start;
    text-align: left;
    font-size: 24px;
    font-family: Lato, sans-serif;
@@ -182,11 +159,11 @@
  }
 
 .rent__button {
-   position: absolute; 
-   left: 0; 
-   bottom: 0; 
+   position: absolute;
+   left: 0;
+   bottom: 0;
    display: flex;
-   align-items: flex-start; 
+   align-items: flex-start;
  }
 
 .rent__button-color {
@@ -208,4 +185,46 @@
 .rent__button-color:hover {
    background-color: #d84b5e;
    transition: 0.2s;
+}
+
+@media (max-width: 500px) {
+   .rent {
+      background-size: contain;
+      justify-content: center;
+      display: flex;
+   }
+
+   .rent__text-container {
+      margin-top: 20px;
+      height: 250px;
+      min-height: auto;
+      width: 90%;
+      flex-wrap: wrap;
+      gap: 20px;
+   }
+
+   .rent__headline {
+      font-size: 20px;
+   }
+
+   .rent__offer {
+      font-size: 16px;
+   }
+
+   .rent__want-to-rent-a-drone {
+      right: auto;
+      display: flex;
+      width: 100%;
+      padding: 10px;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .rent__lines{
+      width: 100px;
+   }
+   .rent__line-current,
+   .rent__line-next {
+      height: 2px;
+   }
 }
