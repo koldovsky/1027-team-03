@@ -29,18 +29,18 @@
     }
 }
 
-/* Defines the width of the carousel and centers it on the page */
-.slick-carousel {
-    margin: 0 auto;
-    width: 1000px;
+
+.gallery_js_carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
-  
-  /* The width of each slide */
-.slick-slide {
-    width: 350px;
+
+.gallery_js_col {
+    padding: 25px;
 }
-  
-  /* Color of the arrows */
-.slick-next::before, .slick-prev::before {
-    color: blue;
+
+.gallery_image {
+    width: 450px;    
 }
