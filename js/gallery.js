@@ -1,21 +1,19 @@
-const carousel = document.querySelector('.gallery_js_carousel');
-const carouselInner = carousel.querySelector('.gallery_js_content');
-const prevButton = carousel.querySelector('.gallery_js_btn_left');
-const nextButton = carousel.querySelector('.gallery_js_btn_right');
-const productCards = carouselInner.querySelectorAll('.gallery_image');
+const carousel = document.querySelector('.animated-carousel');
+const carouselInner = carousel.querySelector('.animated-carousel__inner');
+const prevButton = carousel.querySelector('.carousel__button--prev');
+const nextButton = carousel.querySelector('.carousel__button--next');
+const productCards = carouselInner.querySelectorAll('.product-card');
 
 let slidesPerView = 1;
 let currentIndex = 0;
 
 function updateSlidesPerView() {
-    if (window.innerWidth >= 1024) {
-        slidesPerView = 3;
-    } else if (window.innerWidth >= 768) {
-        slidesPerView = 2;
-    } else {
-        slidesPerView = 1;
-    }
-    updateCarousel();
+  if (window.innerWidth >= 768) {
+      slidesPerView = 2;
+  } else {
+      slidesPerView = 1;
+  }
+  updateCarousel();
 }
 
 function updateCarousel() {
