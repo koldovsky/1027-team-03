@@ -17,17 +17,19 @@ function updateSlidesPerView() {
 }
 
 function updateCarousel() {
-    carouselInner.style.transform = `translateX(-${currentIndex * (100 / slidesPerView)}%)`;
+  const totalSlides = productCards.length;
+  const offset = currentIndex % totalSlides;
+  carouselInner.style.transform = `translateX(-${offset * (100 / slidesPerView)}%)`;
 }
 
 prevButton.addEventListener('click', () => {
-    currentIndex = Math.max(currentIndex - 1, 0);
-    updateCarousel();
+  currentIndex = (currentIndex - 1 + productCards.length) % productCards.length;
+  updateCarousel();
 });
 
 nextButton.addEventListener('click', () => {
-    currentIndex = Math.min(currentIndex + 1, productCards.length - slidesPerView);
-    updateCarousel();
+  currentIndex = (currentIndex + 1) % productCards.length;
+  updateCarousel();
 });
 
 window.addEventListener('resize', updateSlidesPerView);

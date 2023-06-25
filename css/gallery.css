@@ -24,11 +24,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .animated-carousel .product-card {
-    flex: 0 0 50%;
-  }
-}
 
 .animated-carousel .carousel__button {
   position: absolute;
