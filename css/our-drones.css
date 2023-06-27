@@ -23,13 +23,68 @@
     justify-content: center;
 }
 .drones-info {
-    max-width: 100%;
+    height: 1292px;
+    width: 100%;
     background-image: url(../img/our-drones/our-drones-background.webp);
     background-attachment: fixed;
 }
 .carousel-align {
     display: flex;
     justify-content: center;
+}
+
+.text-under-pic {
+    font-size: 25px;
+    font-family: Fjalla One;
+    color: var(--context-text-color);
+}
+
+.drone-price-rent {
+    color: var(--light-green);
+}
+
+.characteristic, .plus {
+    display: inline-block;
+    color: var(--light-gray);
+    font-size: 20px;
+    font-family: Lato;
+}
+
+.align-stick-hor, .align-stick-ver {
+    font-size: 20px;
+    color: var(--light-gray);
+}
+.align-stick-hor {
+    position: absolute;
+    height: 31px;
+    margin-left: 463px;
+}
+.align-stick-ver {
+    position: relative;
+    top: -31px;
+}
+
+.open-characteristics {
+    display: grid;
+    grid-template-columns: 140px 346px;
+}
+
+.open-characteristics:hover {
+    cursor: pointer;
+}
+
+.stick-ver:hover {
+    animation-name: pluse-menu;
+    animation-duration: 300ms;
+}
+
+@keyframes pluse-menu {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
 }
 
 @media(max-width: 320px) {
