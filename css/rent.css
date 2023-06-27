@@ -1,0 +1,230 @@
+.rent {
+   background-image: url("../img/rent-background.png");
+   background-repeat: no-repeat;
+   background-attachment: local;
+   background-size: cover;
+   /*background-position: -290px 100%;*/
+   height: 580px;
+   display: flex;
+   justify-content: flex-end;
+   z-index: 1;
+}
+
+
+.lines {
+   display: flex;
+   width: 150px;
+   height: 4px;
+   justify-content: space-between;
+   margin: 0;
+}
+
+.first_line {
+   width: 55%;
+   height: 4px;
+   background-color: #0ad19d;
+}
+
+.second_line {
+   width: 40%;
+   height: 4px;
+   background-color: #0ad19d;
+   opacity: 0.2;
+}
+
+.rent__text-container {
+   margin-top: 35px;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 37px;
+   height: 367px;
+   box-sizing: border-box;
+
+}
+
+.rent__headline {
+   display: block;
+   font-size: 44px;
+   font-family: Fjalla One, sans-serif;
+   color: #1c1d1e;
+   width: 100%;
+   box-sizing: border-box;
+   word-wrap: break-word;
+   letter-spacing: 1.632px;
+   font-weight: 00;
+}
+
+.rent__offer {
+   display: block;
+   text-align: left;
+   font-size: 20px;
+   font-family: sans-serif;
+   color: #515151;
+   word-wrap: break-word;
+}
+
+
+.rent__button-color {
+   background-color: #0ad19d;
+   height: 50px;
+   width: 125px;
+   transition: 0.2s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.rent__button-color a {
+   text-decoration: none;
+   color: #f0f0f0;
+   font-size: 12px;
+}
+
+.rent__button-color:hover {
+   background-color: #d84b5e;
+   transition: 0.2s;
+}
+
+
+.rent__want-to-rent-a-drone {
+   position: relative;
+   right: 215px;
+   height: 100%;
+   width: 34%;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(236, 236, 236, 1);
+   box-sizing: border-box;
+
+}
+
+.rent__lines {
+   display: flex;
+   width: 150px;
+   height: 4px;
+   justify-content: space-between;
+   margin: 0;
+}
+
+.rent__line-current {
+   width: 55%;
+   height: 4px;
+   background-color: #0ad19d;
+}
+
+.rent__line-next {
+   width: 40%;
+   height: 4px;
+   background-color: #0ad19d;
+   opacity: 0.2;
+}
+
+.rent__text-container {
+   margin-top: 35px;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 37px;
+   min-height: 367px;
+   box-sizing: border-box;
+   position: relative;
+ }
+
+.rent__headline {
+   display: block;
+   font-size: 49px;
+   font-family: Fjalla One, sans-serif;
+   font-weight: 330;
+   letter-spacing: 1.632px;
+   color: #1c1d1e;
+   width: 100%;
+   box-sizing: border-box;
+   word-wrap: break-word;
+}
+
+.rent__offer {
+   flex: 1;
+   display: flex;
+   align-items: flex-start;
+   text-align: left;
+   font-size: 24px;
+   font-family: Lato, sans-serif;
+   color: #515151;
+   word-wrap: break-word;
+ }
+
+.rent__button {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   display: flex;
+   align-items: flex-start;
+ }
+
+.rent__button-color {
+   background-color: #0ad19d;
+   height: 50px;
+   width: 125px;
+   transition: 0.2s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.rent__button-color a {
+   text-decoration: none;
+   color: #f0f0f0;
+   font-size: 12px;
+}
+
+.rent__button-color:hover {
+   background-color: #d84b5e;
+   transition: 0.2s;
+}
+
+@media (max-width: 500px) {
+   .rent {
+      background-size: contain;
+      justify-content: center;
+      display: flex;
+   }
+
+   .rent__text-container {
+      margin-top: 20px;
+      height: 250px;
+      min-height: auto;
+      width: 90%;
+      flex-wrap: wrap;
+      gap: 20px;
+   }
+
+   .rent__headline {
+      font-size: 20px;
+   }
+
+   .rent__offer {
+      font-size: 16px;
+   }
+
+   .rent__want-to-rent-a-drone {
+      right: auto;
+      display: flex;
+      width: 100%;
+      padding: 10px;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .rent__lines{
+      width: 100px;
+   }
+   .rent__line-current,
+   .rent__line-next {
+      height: 2px;
+   }
+}

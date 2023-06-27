@@ -1,7 +1,31 @@
-.footer__container{
-    background-image: url(/img/footer_cover_image.jpg);
-	background-attachment: fixed;
-	background-position: bottom left;
-	background-size: 544px 110px;
-    background-repeat: no-repeat;
+.footer {
+	background-color: black;
+	color: white;
+	font: inherit;
+	text-align: center;
+	font-weight: 500;
+}
+
+.footer_table {
+	padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer_logo {
+	width: 151px;
+	margin: 25px;
+}
+
+.footer_table ul {
+  list-style-type: none;
+}
+
+@media (min-width: 500px) {
+	.footer_table {
+		flex-direction: row;
+		justify-content: flex-start;
+	}
 }

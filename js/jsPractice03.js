@@ -17,11 +17,50 @@ function circleCircumference(circle) {
 // TASK >>>>> Training JS #12: loop statement --for..in and for..of
 // LINK >>>>>  https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
 
-function giveMeFive(obj) {
-  var five = [];
-  for (var key in obj) {
-    if (key.length === 5) five.push(key);
-    if (obj[key].length === 5) five.push(obj[key]);
+function giveMeFive(obj){
+  let resultArr = [];
+  for(let i in obj){
+    if(i.length === 5){resultArr.push(i);}
+    if(obj[i].length === 5){resultArr.push(obj[i]);}
   }
-  return five;
+  return resultArr;
+}
+
+// опційна поглиблена задачка про замикання
+// https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
+
+function buildFun(n) {
+  var res = [];
+
+  for (let i = 0; i < n; i++) {
+    res.push(function () {
+      return i;
+    });
+  }
+
+  return res;
+}
+
+// опційна поглиблена задачка про наслідування
+// https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript
+
+class Shark extends Animal {
+  constructor(name, age, status) {
+    super(name, age, 0, "shark", status);
+  }
+}
+
+class Cat extends Animal {
+  constructor(name, age, status) {
+    super(name, age, 4, "cat", status);
+  }
+  introduce(){return `Hello, my name is ${this.name} and I am ${this.age} years old.  Meow meow!`;}
+}
+
+class Dog extends Animal {
+  constructor(name, age, status, master) {
+   super(name, age, 4, "dog", status);
+    this.master = master;
+  }
+  greetMaster(){return `Hello ${this.master}`;} 
 }

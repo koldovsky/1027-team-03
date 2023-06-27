@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .after-title-text {
     width: 488px;
     margin: auto;
@@ -100,4 +101,53 @@
     .after-title-text{
         width: 267px;
     }
+=======
+.after-title-text {
+    width: 488px;
+    margin: auto;
+    color: var(--context-text-color);
+    font-family: Lato, sans-serif;
+}
+.title-our-drones {
+    width: 162px;
+    margin: auto;
+    color: var(--context-text-color);
+    font-size: 34px;
+    font-family: Fjalla One, sans-serif;
+}
+.our-drones-content {
+    display: grid;
+    grid-template-columns: 488px;
+    grid-template-rows: 76px 0px 112px 400px;
+    text-align: center;
+}
+.align-content {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.drones-info {
+    max-width: 100%;
+    background-image: url(../img/our-drones/our-drones-background.webp);
+    background-attachment: fixed;
+}
+.carousel-align {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 320px) {
+    .our-drones-content {
+        grid-template-columns: 305px;
+    }
+    .drones-examples {
+        width: 272px;
+    }
+    .title-our-drones {
+        width: 172px;
+    }
+    .after-title-text{
+        width: 267px;
+    }
+>>>>>>> 7fb6cb1f97a78bb5e3d95462c6c7144d12a7a6d8
 }
