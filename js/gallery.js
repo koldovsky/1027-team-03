@@ -2,16 +2,16 @@ const carousel = document.querySelector('.animated-carousel');
 const carouselInner = carousel.querySelector('.animated-carousel__inner');
 const prevButton = carousel.querySelector('.carousel__button--prev');
 const nextButton = carousel.querySelector('.carousel__button--next');
-const productCards = carouselInner.querySelectorAll('.product-card');
+const productCards = Array.from(carouselInner.querySelectorAll('.product-card'));
 
 let slidesPerView = 1;
 let currentIndex = 0;
 
 function updateSlidesPerView() {
   if (window.innerWidth >= 768) {
-      slidesPerView = 2;
+    slidesPerView = 2;
   } else {
-      slidesPerView = 1;
+    slidesPerView = 1;
   }
   updateCarousel();
 }
@@ -23,12 +23,12 @@ function updateCarousel() {
 }
 
 prevButton.addEventListener('click', () => {
-  currentIndex = (currentIndex - 1 + productCards.length) % productCards.length;
+  currentIndex -= slidesPerView;
   updateCarousel();
 });
 
 nextButton.addEventListener('click', () => {
-  currentIndex = (currentIndex + 1) % productCards.length;
+  currentIndex += slidesPerView;
   updateCarousel();
 });
 
