@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .after-title-text {
     width: 488px;
     margin: auto;
@@ -60,9 +60,20 @@
     height: 31px;
     margin-left: 463px;
 }
+
 .align-stick-ver {
     position: relative;
-    top: -31px;
+    top: -25px;
+    left: 8px;
+    
+}
+
+.stick-ver {
+    transition: opacity, 0.2s;
+}
+
+.opacity-stick{
+    opacity: 0;
 }
 
 .open-characteristics {
@@ -74,18 +85,17 @@
     cursor: pointer;
 }
 
-.stick-ver:hover {
-    animation-name: pluse-menu;
-    animation-duration: 300ms;
+.characteristics-text{
+    color: var(--context-text-color);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
-@keyframes pluse-menu {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(0);
-    }
+.weight, .speed, .flight-time, .battery, .resolution {
+    color: var(--light-green);
+    font-family: Lato;
+    font-size: 16px;
 }
 
 @media(max-width: 320px) {
@@ -101,3 +111,4 @@
     .after-title-text{
         width: 267px;
     }
+}
