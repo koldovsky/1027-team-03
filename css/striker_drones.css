@@ -7,13 +7,19 @@
     font-size: 140px;
     text-transform: uppercase;
     color: var(--context-text-color);
-    font-family: Fjalla, sans-serif;
+    font-family: Fjalla One, sans-serif;
+}
+.strikerdrones__text {
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+    color: var(--context-text-color);
+    font-weight: 400;
 }
 .strikerdrones__bttn-rent {
     background-color: var(--red-pink);
-    border-width: 0px;
-    height: 50px;
-    width: 179px;
+    border-width: 1px;
+    height: 61px;
+    width: 156px;
     color: var(--context-text-color);
     font-family: Lato, sans-serif;
     font-weight: 400;
@@ -22,4 +28,32 @@
 }
 .strikerdrones__bttn-rent:hover {
     background-color: var(--light-green);
+}
+.strikerdrones__bttn-more {
+    background-color: var(--grey);
+    border-width: 1px;
+    border-color: var(--grey);
+    height: 61px;
+    width: 156px;
+    color: var(--context-text-color);
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 13.2px;
+    transition-duration: 0.3s;
+}
+.strikerdrones__bttn-more:hover {
+    background-color: var(--context-text-color);
+    color: var(--main-text-color);
+}
+.striker_drones__bttn-container {
+    display: inline;
+    margin: 20px;
+}
+@media(max-width: 780px) {
+    .striker_drones {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
 }
