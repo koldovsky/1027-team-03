@@ -24,7 +24,7 @@
     justify-content: center;
 }
 .drones-info {
-    height: 1292px;
+    height: 1298px;
     width: 100%;
     background-image: url(../img/our-drones/our-drones-background.webp);
     background-attachment: fixed;
@@ -96,6 +96,62 @@
     color: var(--light-green);
     font-family: Lato;
     font-size: 16px;
+}
+
+.margin-characteristics {
+    margin-top: 23px;
+}
+
+.carousel-slides {
+    display: flex;
+    flex-direction: row;
+}
+
+.margin-righ {
+    margin-right: 30px;
+}
+
+.right-arrow, .left-arrow {
+    border-radius: 100%;
+    width: 30px;
+    border-width: 0px;
+    background-color: var(--main-text-color);
+    opacity: 0.8;
+    position: relative;
+}
+
+.left-arrow {
+    transform: rotate(180deg);
+    right: 540px;
+    bottom: 361px;
+}
+.right-arrow {
+    left: 510px;
+    bottom: 355px;
+}
+
+.arrow-svg_1j4 {
+    fill: var(--light-green);
+}
+
+.list-green {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    width: 60px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+.green-circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    border-width: 0px;
 }
 
 @media(max-width: 320px) {
