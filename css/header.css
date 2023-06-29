@@ -1,5 +1,5 @@
 .header {
-    background-color: black;
+    background-color: #121416;  /* temporarily */
     margin: auto;
     padding: 30px 24px;
     display: flex;
@@ -27,4 +27,10 @@
 
 .header__nav-item:hover {
     color: var(--light-green);
+}
+
+@media (max-width: 992px) {
+    .header__nav {
+        display: none;
+    }
 }
