@@ -1,12 +1,130 @@
-.contacts__container_cover {
+.contacts__container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
 	background-image: url("../img/cover_contacts.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
 	background-size: cover;
+  }
+
+
+.contacts__inner {
+
 	padding-top: 20px;
-	color: var(--context-text-color);
+	color: white;
 	font-family: "Lato";
 	font-weight: 400;
+	line-height: 24px;
+	display: flex;
+	flex-direction: column;
+	height: auto;
 	
 }
+
+.contacts__title {
+	padding: 10px 0;
+}
+
+.contacts__text {
+	padding: 0 20px;
+}
+
+.contacts__contact_form_dark {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color:  rgba(28, 29, 30, 0.82);
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 583px;
+	padding-top: 30px;
+	margin: 0 20px;
+
+}
+
+.contacts__contact_form_input_text {
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+	align-items: stretch;
+
+}
+
+.contacts__contact_form_input_text input {
+	height: 53px;
+	background-color: #515151;
+	border: 0;
+	
+}
+
+.contacts__input_text {
+	padding-left: 10px;
+	color: white;
+}
+
+.message_box .contacts__input_text {
+	height: 160px;
+	color: white;
+}
+
+
+.contacts__action_button {
+	width: 70%;
+	height: 50px;
+	background-color: #f52e62;
+	align-self: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	color: white;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 12px;
+	
+}
+
+.contacts__action_button :hover {
+	background-color: #52ca12;
+}
+
+
+.contacts__action_button a {
+
+}
+
+@media (min-width: 680px) {
+	.contacts__inner {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.contacts__contact_form_dark {
+		width: 350px;
+		margin-bottom: 20px;
+		padding: 10px 0px 0px 0px;
+	}
+
+	.contacts__contact_form_input_text {
+		width: 80%;
+	}
+
+	.contacts__action_button {
+		width: 80%;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	.contacts__inner {
+		display: flex;
+		flex-direction: row;
+		width: 1024px;
+
+	}
+	.contacts__container {
+		display: flex;
+		justify-content: space-around;
+	}
+} 
