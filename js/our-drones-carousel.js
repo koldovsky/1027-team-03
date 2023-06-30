@@ -10,7 +10,7 @@ const slidesInfo = [
             <img src="./img/our-drones/green-line-deco.svg" alt="">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  <button class="accordion-button collapsed btn-for-anim" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                         <div class="open-characteristics">
                             <div class="align-stick-hor">
                                 <span class="stick-hor">—</span>
@@ -102,7 +102,7 @@ const slidesInfo = [
 
         `
         <div class="margin-righ">
-            <img src="img/our-drones/gopro-karma.png" alt="dji-mavik-zoom_Pic" class="drone-pic">
+            <img src="img/our-drones/gopro-karma.png" alt="dji-mavik-zoom_Pic" class="drone-pic karma-pro">
             <span class="text-under-pic">
                 <span class="drone-name">GOPRO KARMA DRONE</span>
                 <span class="drone-price-rent">from $110/mo.</span>
@@ -211,18 +211,64 @@ function renderSlides() {
     }
 }
 renderSlides();
+//-------------------Next & Prev BTNS & active-circle-green--------------------
+const firstCircle = document.querySelector('.green-circle-first-slide');
+const secondCircle = document.querySelector('.green-circle-second-slide');
+const thirdCircle = document.querySelector('.green-circle-third-slide');
+const fourthCircle = document.querySelector('.green-circle-fourth-slide');
 
-//---------------------Next & Prev BTNS---------------------
 const prevBtn = document.querySelector('.left-arrow');
 const nextBtn = document.querySelector('.right-arrow');
+firstCircle.classList.add('opacity-circle');
+let count = 1;
 
 function nextSlide() {
+    const plusnext = currentSlide;
     currentSlide = currentSlide++ >= slidesInfo.length-1 ? 0 : currentSlide++;
+    if(plusnext < currentSlide){
+        count+=1;
+        if(count === 2){
+            firstCircle.classList.remove('opacity-circle');
+            secondCircle.classList.add('opacity-circle');
+        }else if(count === 3){
+            secondCircle.classList.remove('opacity-circle');
+            thirdCircle.classList.add('opacity-circle');
+        }else if(count === 4) {
+            thirdCircle.classList.remove('opacity-circle');
+            fourthCircle.classList.add('opacity-circle');
+        }
+    }else{
+            count = 1;
+            firstCircle.classList.add('opacity-circle');
+            fourthCircle.classList.remove('opacity-circle');
+        }
+
+
+
+
     renderSlides();
 }
 
 function prevSlide() {
+    const plusprev = currentSlide;
     currentSlide = currentSlide-- <= 0 ? slidesInfo.length-1 : currentSlide--;
+    if(plusprev > currentSlide){
+        count-=1;
+        if(count === 3){
+            fourthCircle.classList.remove('opacity-circle');
+            thirdCircle.classList.add('opacity-circle');
+        }else if(count === 2){
+            thirdCircle.classList.remove('opacity-circle');
+            secondCircle.classList.add('opacity-circle');
+        }else if(count === 1) {
+            secondCircle.classList.remove('opacity-circle');
+            firstCircle.classList.add('opacity-circle');
+        }
+    }else{
+            count = 4;
+            firstCircle.classList.remove('opacity-circle');
+            fourthCircle.classList.add('opacity-circle');
+        }
     renderSlides();
 }
 
@@ -230,14 +276,3 @@ prevBtn.addEventListener('click', prevSlide);
 nextBtn.addEventListener('click', nextSlide);
 
 window.addEventListener('resize', renderSlides);
-//--------------------------------------------------------------
-
-
-//-----------------Animation-characteristics---------------
-const characteristicsBtn = document.querySelector('.open-characteristics');
-const stickVer = document.querySelector('.stick-ver');
-
-characteristicsBtn.addEventListener('click', () =>{
-    stickVer.classList.toggle('opacity-stick');
-});
-//--------------------------END-----------------------------

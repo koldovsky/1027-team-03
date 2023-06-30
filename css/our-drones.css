@@ -24,14 +24,16 @@
     justify-content: center;
 }
 .drones-info {
-    height: 1298px;
+    height: 1237px;
     width: 100%;
     background-image: url(../img/our-drones/our-drones-background.webp);
     background-attachment: fixed;
+    transition: height 500ms;
 }
 .carousel-align {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .text-under-pic {
@@ -138,13 +140,13 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 7px;
-    width: 60px;
+    gap: 20px;
+    width: 105px;
     padding: 0px;
     margin: 0px;
     position: relative;
     top: 50px;
-    left: 200px;
+    left: 175px;
 }
 
 .green-circle {
@@ -152,6 +154,16 @@
     width: 10px;
     border-radius: 100%;
     border-width: 0px;
+    background-color: var(--light-green);
+    opacity: 0.6;
+}
+
+.opacity-circle {
+    opacity: 1;
+}
+
+.karma-pro {
+    height: 487px;
 }
 
 @media(max-width: 320px) {
