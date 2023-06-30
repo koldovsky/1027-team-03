@@ -1,5 +1,5 @@
 .header {
-    background-color: #121416;  /* temporarily */
+    background-color: #121416;
     margin: auto;
     padding: 30px 24px;
     display: flex;
@@ -23,6 +23,7 @@
     text-decoration: none;
     color: var(--nav-color);
     padding: 10px;
+    font-family: Lato, sans-serif;
 }
 
 .header__nav-item:hover {
@@ -32,5 +33,9 @@
 @media (max-width: 992px) {
     .header__nav {
         display: none;
+    }
+
+    .header__burger {
+        display: flex;
     }
 }
