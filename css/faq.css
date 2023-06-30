@@ -29,11 +29,12 @@
 .faq_all_items {
 	display: flex;
 	font-family: Fjalla One, sans-serif;
-	flex-direction: row;
+	flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
 	padding: 35px;
+
 }
 
 .faq_item_collum {
@@ -57,4 +58,10 @@
 	font-weight: 400;
 	line-height: 27px;
 	
+}
+
+@media (min-width: 680px ) {
+	.faq_all_items {
+		flex-direction: row
+	}
 }
