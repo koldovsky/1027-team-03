@@ -41,7 +41,7 @@
 	}
 }
 
-@media (min-width: 570px) {
+@media (min-width: 673px) {
 	.footer_table ul {
 		display: inline-flex;
 		justify-content: flex-end;
@@ -103,9 +103,20 @@
 	margin: -5px -10px 0;
 	justify-self: end;
 	align-self: center;
+	padding-right: 5px;
 }
 
 .footer hr {
 	margin: 0 10px;
 	color: var(--white-gray);
+}
+
+.footer a {
+	text-decoration: none; 
+	color: var(--white-gray); 
+	transition: color 0.1s ease-in-out; 
+}
+
+.footer a:hover {
+	color: var(--light-green); 
 }
