@@ -41,7 +41,8 @@
     color: var(--gray);
 }
 .girls-and-drone {
-    width: 50%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 .align-center-drones-needs {
@@ -52,13 +53,48 @@
     width: 50%;
 }
 
+@media(max-width: 1145px) {
+    .drones-needs {
+        display: flex;
+        flex-direction: row;
+        height: 670px;
+        width: auto;
+    }
+    .align-center-drones-needs  {
+        width:100%;
+        height: 670px;
+        
+    }
+    .text__drones-needs {
+
+        padding: 62px 39px;
+        grid-template-rows: 78px 39px 137px 174px;
+    }
+    .pre-title__text__drones-needs {
+        width: 345px;
+    }
+    .drone-useful, .striker-drones-best{
+        width: 490px;
+    }
+
+    .decorate-red-line {
+        width: 600px;
+    }
+
+    .girls-and-drone {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+}
 
 @media(max-width: 701px) {
     .drones-needs {
         display:flex;
         flex-direction: column;
-        height: 1070px;
-        width: 700px;
+        height: 733px;
+        width: auto;
     }
     .align-center-drones-needs  {
         width:100%;
@@ -70,34 +106,129 @@
         height: 200px;
     }
     .text__drones-needs {
-        width:641px;
-        padding: 62px 0px;
-        grid-template-rows: 117px 30px 221px 284px 1px;
+
+        padding: 62px 39px;
+        grid-template-rows: 78px 39px 107px 134px;
     }
     .pre-title__text__drones-needs {
-        width: 237px;
+        width: 345px;
     }
-    .drone-useful p {
-        width: 275px;
-    }
-    .striker-drones-best p {
-        width: 239px;
 
+    .striker-drones-best p, .drone-useful p {
+        width: auto;
     }
-    .drone-useful {
-        width: 286px;
+
+    .drone-useful, .striker-drones-best{
+        width: 651px;
     }
-    .striker-drones-best {
-        width: 250px;
-    }
+
     .decorate-red-line {
-        width: 247px;
+        width: 600px;
     }
 }
 
-@media(max-width: 413px) {
+@media(max-width: 678px) {
+    .text__drones-needs {
+
+        padding: 62px 39px;
+        grid-template-rows: 78px 39px 107px 134px;
+    }
+    .pre-title__text__drones-needs {
+        width: 345px;
+    }
+    .drone-useful, .striker-drones-best{
+        width: 564px;
+    }
+
+    .decorate-red-line {
+        width: 600px;
+    }
+}
+
+@media(max-width: 600px) {
     .drones-needs {
-        width: 412px;
+        height: 827px;
+    }
+    .text__drones-needs {
+
+        padding: 62px 39px;
+        grid-template-rows: 78px 39px 156px 178px;
+    }
+    .pre-title__text__drones-needs {
+        width: 345px;
+    }
+    .drone-useful, .striker-drones-best{
+        width: 469px;
+    }
+
+    .decorate-red-line {
+        width: 600px;
+    }
+}
+
+@media(max-width: 504px) {
+    .drones-needs {
+        height: 827px;
+    }
+    .text__drones-needs {
+        grid-template-columns: 404px;
+        padding: 62px 76px;
+        grid-template-rows: 78px 39px 156px 178px;
+    }
+    .pre-title__text__drones-needs {
+        width: 345px;
+    }
+    .drone-useful, .striker-drones-best{
+        width: 383px;
+    }
+
+    .decorate-red-line {
+        width: 600px;
+    }
+}
+
+@media(max-width: 464px) {
+    .text__drones-needs {
+        padding: 62px 29px;
+    }
+}
+
+@media(max-width: 410px) {
+    .drones-needs {
+        height: 947px;
+    }
+    .text__drones-needs {
+        padding: 62px 51px;
+        grid-template-rows: 119px 39px 193px 224px;
+        grid-template-columns: 334px;
+    }
+    .pre-title__text__drones-needs {
+        width: 239px;
+    }
+    .drone-useful, .striker-drones-best{
+        width: 313px;
+    }
+
+    .decorate-red-line {
+        width: 600px;
+    }
+}
+
+@media(max-width: 365px) {
+    .text__drones-needs {
+        padding: 62px 33px;
+    }
+}
+
+@media(max-width: 348px) {
+    .text__drones-needs {
+        padding: 62px 13px;
+    }
+}
+
+@media(max-width: 327px) {
+    .text__drones-needs {
+        padding: 62px 5px;
     }
 }
 
@@ -119,26 +250,15 @@
         height: 200px;
     }
     .text__drones-needs {
-        width:260px;
-        padding: 62px 0px;
-        grid-template-rows: 117px 30px 221px 284px 1px;
+        width: 292px;
+        padding: 62px 10px;
+        grid-template-rows: 117px 30px 262px 315px 1px;
     }
     .pre-title__text__drones-needs {
-        width: 237px;
+        width: 179px;
     }
-    .drone-useful p {
-        width: 275px;
-    }
-    .striker-drones-best p {
-        width: 239px;
-
-    }
-    .drone-useful {
-        width: 286px;
-    }
-    .striker-drones-best {
-        width: 250px;
-
+    .drone-useful, .striker-drones-best{
+        width: 221px;
     }
     .decorate-red-line {
         width: 247px;
