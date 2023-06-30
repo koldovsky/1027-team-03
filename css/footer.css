@@ -1,6 +1,6 @@
 .footer {
-	background-color: black;
-	color: #C5C5C5;
+	background-color: var(--main-text-color);
+	color: var(--white-gray);
 	font: inherit;
 	text-align: center;
 	font-weight: 500;
@@ -45,6 +45,7 @@
 	.footer_table ul {
 		display: inline-flex;
 		justify-content: flex-end;
+		margin-bottom: 0;
 	}
 	.footer_logo img {
 		margin: 0;
@@ -55,7 +56,7 @@
 .footer_divider {
 	height: 1px;
 	width: auto;
-	background-color: #C5C5C5;
+	background-color: var(--white-gray);
 	opacity: .2;
 	content: "";
 	margin-left: 10px;
@@ -106,5 +107,5 @@
 
 .footer hr {
 	margin: 0 10px;
-	color: #C5C5C5;
+	color: var(--white-gray);
 }

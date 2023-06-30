@@ -166,6 +166,97 @@
     height: 487px;
 }
 
+
+
+@media(max-width: 413px) {
+
+    .our-drones-content {
+        grid-template-columns: 412px;
+    }
+
+    .grid-align {
+        width: 385px;
+    }
+    .right-arrow {
+        left: 179px;
+        bottom: 190px;
+    }
+
+    .list-green {
+        left: 131px;
+    }
+
+    .left-arrow {
+        right: 181px;
+        bottom: 185px;
+    }
+
+    .margin-righ > img {
+        width: 322px;
+        margin-bottom: 20px;
+    }
+
+    .carousel-align {
+        width: 412px;
+        margin-top: 128px;
+    }
+
+    .karma-pro {
+        width: 322px;
+        height: 322px;
+    }
+
+    .text-under-pic {
+        position: relative;
+        right: 5px;
+    }
+
+    .align-stick-hor  {
+        margin-left: 297px;
+    }
+
+    .open-characteristics  {
+        grid-template-columns: 0px 269px;
+    }
+
+    .slide-second-drones {
+        right: 25px;
+        letter-spacing: -1px;
+    }
+    
+    .slide-third-drones {
+        letter-spacing: -1px;
+        font-size: 22px;
+        right: 24px;
+    }
+    
+    .slide-fourth-drones {
+        right: 27px;
+    }
+
+    .green-line-under-pic-our-drones {
+        margin-top: 22px;
+    }
+
+    .after-title-text {
+        width: 319px;
+        margin-right: 64px;
+        margin-top: 165px;
+    }
+
+    .title-our-drones {
+        margin-top: 112px;
+        margin-right: 139px;
+    }
+    .greenline-under-pic-our-drones {
+        margin-top: 107px;
+        position: relative;
+        scale: 0.9;
+        right: 8px;
+    }
+    
+}
+
 @media(max-width: 320px) {
     .our-drones-content {
         grid-template-columns: 305px;
