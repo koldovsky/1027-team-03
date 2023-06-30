@@ -95,6 +95,11 @@
     }
 }
 
+@media(max-width: 413px) {
+    .drones-needs {
+        width: 412px;
+    }
+}
 
 @media(max-width: 320px) {
     .drones-needs {

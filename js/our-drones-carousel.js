@@ -7,7 +7,7 @@ const slidesInfo = [
                 <span class="drone-name">DJI MAVIC 2 ZOOM</span>
                 <span class="drone-price-rent">from $120/mo.</span>
             </span>
-            <img src="./img/our-drones/green-line-deco.svg" alt="">
+            <img src="./img/our-drones/green-line-deco.svg" alt="" class="green-line-under-pic-our-drones">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                   <button class="accordion-button collapsed btn-for-anim" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
@@ -53,11 +53,11 @@ const slidesInfo = [
         `
         <div class="margin-righ">
             <img src="./img/our-drones/dji-mavik-pro.png" alt="dji-mavik-zoom_Pic" class="drone-pic">
-            <span class="text-under-pic">
+            <span class="text-under-pic slide-second-drones">
                 <span class="drone-name">DJI MAVIC 2 PRO</span>
                 <span class="drone-price-rent">from $120/mo.</span>
             </span>
-            <img src="./img/our-drones/green-line-deco.svg" alt="">
+            <img src="./img/our-drones/green-line-deco.svg" alt="" class="green-line-under-pic-our-drones">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
@@ -103,11 +103,11 @@ const slidesInfo = [
         `
         <div class="margin-righ">
             <img src="img/our-drones/gopro-karma.png" alt="dji-mavik-zoom_Pic" class="drone-pic karma-pro">
-            <span class="text-under-pic">
+            <span class="text-under-pic slide-third-drones">
                 <span class="drone-name">GOPRO KARMA DRONE</span>
                 <span class="drone-price-rent">from $110/mo.</span>
             </span>
-            <img src="./img/our-drones/green-line-deco.svg" alt="">
+            <img src="./img/our-drones/green-line-deco.svg" alt="" class="green-line-under-pic-our-drones">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
@@ -153,11 +153,11 @@ const slidesInfo = [
         `
         <div class="margin-righ">
             <img src="./img/our-drones/dji-mavik-air.png" alt="dji-mavik-zoom_Pic" class="drone-pic">
-            <span class="text-under-pic">
+            <span class="text-under-pic slide-fourth-drones">
                 <span class="drone-name">DJI MAVIK AIR</span>
                 <span class="drone-price-rent">from $90/mo.</span>
             </span>
-            <img src="./img/our-drones/green-line-deco.svg" alt="">
+            <img src="./img/our-drones/green-line-deco.svg" alt="" class="green-line-under-pic-our-drones">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
