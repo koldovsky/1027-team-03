@@ -14,7 +14,7 @@
 }
 
 .about {
-	background-image: url(img/background_about.png);
+	background-image: url(../img/background_about.png);
 	background-position: center;
 	position: relative;
 }
