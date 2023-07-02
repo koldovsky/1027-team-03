@@ -1,39 +1,58 @@
+.drones-info {
+    padding: 100px 20px;
+    height: auto;
+    width: 100%;
+    background-image: url(../img/our-drones/background-our-drones.webp);
+    background-attachment: fixed;
+    transition: height 500ms;
+}
+
+
+.our-drones-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .after-title-text {
-    width: 488px;
+    text-align: center;
+    display: inline-block;
     margin: auto;
     color: var(--context-text-color);
     font-family: Lato, sans-serif;
+    margin-bottom: 30px;
+    max-width: 475px
 }
+
 .title-our-drones {
-    width: 162px;
+    display: inline-block;
     margin: auto;
     color: var(--context-text-color);
     font-size: 34px;
     font-family: Fjalla One, sans-serif;
 }
-.our-drones-content {
-    display: grid;
-    grid-template-columns: 488px;
-    grid-template-rows: 76px 0px 112px 400px;
-    text-align: center;
+
+.greenline-under-pic-our-drones {
+    object-fit: contain;
+    margin: 18px 0px 20px 0px
 }
+
+.sizing-img-our-drones {
+    margin: auto;
+    SCALE: 1.2;
+}
+
 .align-content {
-    max-width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
-.drones-info {
-    height: 1237px;
-    width: 100%;
-    background-image: url(../img/our-drones/our-drones-background.webp);
-    background-attachment: fixed;
-    transition: height 500ms;
-}
-.carousel-align {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+
+
+.carousel-slides {
+    overflow: hidden;
+    width: 1002px;
+    margin: auto;
 }
 
 .text-under-pic {
@@ -114,22 +133,25 @@
 }
 
 .right-arrow, .left-arrow {
+    display: inline-block;
     border-radius: 100%;
     width: 30px;
     border-width: 0px;
     background-color: var(--main-text-color);
     opacity: 0.8;
-    position: relative;
 }
 
 .left-arrow {
     transform: rotate(180deg);
-    right: 540px;
-    bottom: 361px;
+    
 }
-.right-arrow {
-    left: 510px;
-    bottom: 355px;
+
+.carousle-our-drones {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    margin: auto;
 }
 
 .arrow-svg_1j4 {
@@ -143,10 +165,8 @@
     gap: 20px;
     width: 105px;
     padding: 0px;
-    margin: 0px;
-    position: relative;
-    top: 50px;
-    left: 175px;
+    margin: auto;
+    margin-top: 80px;
 }
 
 .green-circle {
@@ -166,108 +186,51 @@
     height: 487px;
 }
 
+@media(max-width:1090px) {
+    .carousel-slides {
+        width: 487px;
+    }
+}
 
+@media(max-width:572px) {
 
-@media(max-width: 413px) {
-
-    .our-drones-content {
-        grid-template-columns: 412px;
+    .drone-pic {
+        width: 365px;
     }
 
-    .grid-align {
-        width: 385px;
+    .carousel-slides {
+        width: 365px;
     }
-    .right-arrow {
-        left: 179px;
-        bottom: 190px;
+}
+
+@media(max-width:455px) {
+    
+    .drone-pic {
+        width: 270px;
     }
 
-    .list-green {
-        left: 131px;
-    }
-
-    .left-arrow {
-        right: 181px;
-        bottom: 185px;
-    }
-
-    .margin-righ > img {
-        width: 322px;
-        margin-bottom: 20px;
-    }
-
-    .carousel-align {
-        width: 412px;
-        margin-top: 128px;
-    }
-
-    .karma-pro {
-        width: 322px;
-        height: 322px;
+    .carousel-slides {
+        width: 276px;
     }
 
     .text-under-pic {
-        position: relative;
-        right: 5px;
+        display: inline-block;
+        width: 222px;
     }
-
-    .align-stick-hor  {
-        margin-left: 297px;
-    }
-
-    .open-characteristics  {
-        grid-template-columns: 0px 269px;
-    }
-
-    .slide-second-drones {
-        right: 25px;
-        letter-spacing: -1px;
-    }
-    
-    .slide-third-drones {
-        letter-spacing: -1px;
-        font-size: 22px;
-        right: 24px;
-    }
-    
-    .slide-fourth-drones {
-        right: 27px;
-    }
-
-    .green-line-under-pic-our-drones {
-        margin-top: 22px;
-    }
-
-    .after-title-text {
-        width: 319px;
-        margin-right: 64px;
-        margin-top: 165px;
-    }
-
-    .title-our-drones {
-        margin-top: 112px;
-        margin-right: 139px;
-    }
-    .greenline-under-pic-our-drones {
-        margin-top: 107px;
-        position: relative;
-        scale: 0.9;
-        right: 8px;
-    }
-    
 }
 
-@media(max-width: 320px) {
-    .our-drones-content {
-        grid-template-columns: 305px;
+@media(max-width:361px) {
+    
+    .drone-pic {
+        width: 200px;
     }
-    .drones-examples {
-        width: 272px;
+
+    .carousel-slides {
+        width: 202px;
     }
-    .title-our-drones {
-        width: 172px;
-    }
-    .after-title-text{
-        width: 267px;
+
+    .text-under-pic {
+        display: inline-block;
+        width: 170px;
     }
 }

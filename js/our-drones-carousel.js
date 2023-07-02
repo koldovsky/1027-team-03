@@ -200,17 +200,7 @@ const slidesInfo = [
         </div>`,
 ];
 
-let currentSlide = 0;
-const placeHolderForSlides = document.querySelector('.carousel-slides');
 
-function renderSlides() {
-    placeHolderForSlides.innerHTML = slidesInfo[currentSlide];
-    if(window.innerWidth >= 767){
-        let secondSlide = currentSlide+1 >= slidesInfo.length ? 0 : currentSlide+1;
-        placeHolderForSlides.innerHTML += slidesInfo[secondSlide];
-    }
-}
-renderSlides();
 //-------------------Next & Prev BTNS & active-circle-green--------------------
 const firstCircle = document.querySelector('.green-circle-first-slide');
 const secondCircle = document.querySelector('.green-circle-second-slide');
@@ -223,8 +213,7 @@ firstCircle.classList.add('opacity-circle');
 let count = 1;
 
 function nextSlide() {
-    const plusnext = currentSlide;
-    currentSlide = currentSlide++ >= slidesInfo.length-1 ? 0 : currentSlide++;
+
     if(plusnext < currentSlide){
         count+=1;
         if(count === 2){
@@ -250,8 +239,7 @@ function nextSlide() {
 }
 
 function prevSlide() {
-    const plusprev = currentSlide;
-    currentSlide = currentSlide-- <= 0 ? slidesInfo.length-1 : currentSlide--;
+
     if(plusprev > currentSlide){
         count-=1;
         if(count === 3){

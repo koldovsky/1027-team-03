@@ -45,6 +45,11 @@
     height: 100%;
     object-fit: cover;
 }
+
+.sizing-img-girls-drones {
+    width: 100%;
+}
+
 .align-center-drones-needs {
     display: flex;
     justify-content: center;
