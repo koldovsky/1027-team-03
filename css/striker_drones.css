@@ -1,15 +1,19 @@
 .striker_drones {
     background-image: url("../img/main_page_drone.png");
     background-size: cover;
+    position: relative;
+	width: 100%;
 
 .striker_drones__container {
-    height: 929px;
+    height: auto;
     width: 1262px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
 }
 }
 .striker_drones__title {
+    display: flex;
+    flex-direction: row;
     font-size: 140px;
     color: var(--context-text-color);
     font-family: Fjalla One, sans-serif;
@@ -25,7 +29,7 @@
     height: 61px;
     width: 156px;
     font-family: Lato, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 13.2px;
     color: var(--context-text-color);
     transition-duration: 0.3s;
@@ -41,7 +45,7 @@
     width: 145px;
     color: var(--context-text-color);
     font-family: Lato, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 13.2px;
     transition-duration: 0.3s;
 }
@@ -58,7 +62,7 @@
 }
 
 
-@media(max-width: 320px) {
+@media(min-width: 320px) {
     .striker_drones {
         position: relative;
         padding-top: 100px;
@@ -86,7 +90,7 @@
     }
 }
 
-@media(max-width: 372px) {
+@media(min-width: 372px) {
     .striker_drones {
         padding-top: 90px;
         padding-bottom: 90px;
@@ -126,10 +130,10 @@
         font-size: 13.2px;
     }
 }
-@media(max-width: 460px) {
+@media(min-width: 460px) {
     .striker_drones {
         padding-top: 90px;
-        padding-bottom: 90px;
+        padding-bottom: 140px;
     }
     .striker_drones__container {
         padding-right: 15px;
@@ -147,9 +151,10 @@
     }
     .striker_drones__bttn-container {
         display: flex;
+        flex-direction: row;
         width: 300px;
         height: 61px;
-        padding-top: 50px;
+        padding-top: 30px;
     }
     .striker_drones__bttn-rent {
         width: 125px;
@@ -168,7 +173,7 @@
         font-size: 13.2px;
     }
 }
-@media(max-width: 767px) {
+@media(min-width: 767px) {
     .striker_drones {
         padding-top: 45px;
         padding-bottom: 45px;
@@ -210,47 +215,60 @@
         font-size: 9px;
     }
 }
-@media(max-width: 999px) {
+@media (min-width: 999px) {
     .striker_drones {
-        padding-top: 90px;
-        padding-bottom: 90px;
-    }
-    .striker_drones__container {
-        padding-right: 15px;
-        padding-left: 15px;
+        padding: 60px 0px 130px 0px;
     }
     .striker_drones__title {
-        font-size: 45px;
+        font-size: 90px;
     }
-    .striker_drones__greenline {
-        width: 324px;
+    .striker_drones__container {
+        padding: 0px 15px 0px 15px;
     }
     .striker_drones__text {
-        margin-top: 20px;
-        font-size: 15px;
-    }
-    .striker_drones__bttn-container {
-        display: flex;
-        width: 300px;
-        height: 61px;
-        padding-top: 50px;
+        font-size: 14px;
     }
     .striker_drones__bttn-rent {
-        width: 125px;
-        height: 45px;
-        font-size: 13.2px;
-    }
-    .striker_drones__bttn-rent-text {
-        font-size: 10px;
-    }
-    .striker_drones__bttn-more-text {
-        font-size: 10px;
+        width: 100px;
+        height: 40px;
     }
     .striker_drones__bttn-more {
-        width: 125px;
-        height: 45px;
+        width: 100px;
+        height: 40px;
+    }
+}
+@media (min-width: 1600px) {
+    .striker_drones {
+        padding: 100px 0px 140px 0px;
+    }
+    .striker_drones__container {
+        width: 444px;
+        margin-left: 40px;
+    }
+    .striker_drones__title {
+        font-size: 140px;
+    }
+    .striker_drones__greenline {
+        width: 570px;
+    }
+    .striker_drones__text {
+        font-size: 20px;
+    }
+    .striker_drones__bttn-container {
+        margin-top: -20px;
+    }
+    .striker_drones__bttn-rent {
+        width: 140px;
+        height: 55px;
+    }
+    .striker_drones__bttn-rent-text {
+        font-size: 13.2px;
+    }
+    .striker_drones__bttn-more {
+        width: 140px;
+        height: 55px;
+    }
+    .striker_drones__bttn-more-text {
         font-size: 13.2px;
     }
 }
-
-
