@@ -49,9 +49,10 @@
 }
 
 
-.carousel-slides {
-    overflow: hidden;
-    width: 1002px;
+.carousle-our-drones {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
 }
 
@@ -124,6 +125,8 @@
 }
 
 .carousel-slides {
+    overflow: hidden;
+    width: 1001px;
     display: flex;
     flex-direction: row;
 }
@@ -140,19 +143,17 @@
     background-color: var(--main-text-color);
     opacity: 0.8;
 }
-
+.slider-our-drones {
+    display: flex;
+    flex-direction: row;
+    transition: left 0.5s ease-in-out;
+    position: relative;
+    left: 0px;
+}
 .left-arrow {
     transform: rotate(180deg);
-    
 }
 
-.carousle-our-drones {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: min-content;
-    margin: auto;
-}
 
 .arrow-svg_1j4 {
     fill: var(--light-green);
@@ -183,8 +184,10 @@
 }
 
 .karma-pro {
-    height: 487px;
+    height: auto;
 }
+
+
 
 @media(max-width:1090px) {
     .carousel-slides {
