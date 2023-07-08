@@ -54,7 +54,7 @@
 .faq_item_collum {
 	display: flex;
 	flex-direction: column;
-	flex: 1 1 50%;
+	flex: 1 1 30%;
 	padding-top: 34px;
 	padding-left: 28px;
 	padding-bottom: 34px;
