@@ -6,21 +6,32 @@
 }
 
 .faq_header {
-    text-align: center;
-	font-family: Fjalla One, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .faq_title {
-	font-size: 34px;
-	padding: 35px;
+	display: inline-block;
+    margin: auto;
+    color: var(--context-text-color);
+    font-size: 34px;
+    font-family: Fjalla One, sans-serif;
+}
+
+.sizing-img-faq {
+    margin: auto;
+    SCALE: 1.2;
 }
 
 .faq_title-text {  
-    font-size: 18px;
+	text-align: center;
+    display: inline-block;
+    margin: auto;
+    color: var(--context-text-color);
     font-family: Lato, sans-serif;
-	padding: 35px;
-	flex-direction: row;
-    flex-wrap: wrap;
+    margin-bottom: 30px;
+    max-width: 475px 
 }
 .faq_discription {
 	text-align: center;
