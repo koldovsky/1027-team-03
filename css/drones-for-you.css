@@ -156,7 +156,7 @@
     }
     .text__drones-needs {
 
-        padding: 62px 39px;
+        padding: 62px 12px;
         grid-template-rows: 78px 39px 156px 178px;
     }
     .pre-title__text__drones-needs {
@@ -167,7 +167,7 @@
     }
 
     .decorate-red-line {
-        width: 600px;
+        width: 477px;
     }
 }
 
@@ -177,7 +177,7 @@
     }
     .text__drones-needs {
         grid-template-columns: 404px;
-        padding: 62px 76px;
+        padding: 62px 1px;
         grid-template-rows: 78px 39px 156px 178px;
     }
     .pre-title__text__drones-needs {
@@ -188,13 +188,28 @@
     }
 
     .decorate-red-line {
-        width: 600px;
+        width: 400px;
     }
 }
 
 @media(max-width: 464px) {
     .text__drones-needs {
         padding: 62px 29px;
+    }
+    .text__drones-needs {
+        grid-template-columns: 404px;
+        padding: 62px 1px;
+        grid-template-rows: 78px 39px 156px 178px;
+    }
+    .pre-title__text__drones-needs {
+        width: 345px;
+    }
+    .drone-useful, .striker-drones-best{
+        width: 383px;
+    }
+
+    .decorate-red-line {
+        width: 400px;
     }
 }
 
@@ -203,9 +218,9 @@
         height: 947px;
     }
     .text__drones-needs {
-        padding: 62px 51px;
+        padding: 62px 15px;
         grid-template-rows: 119px 39px 193px 224px;
-        grid-template-columns: 334px;
+        grid-template-columns: 301px;
     }
     .pre-title__text__drones-needs {
         width: 239px;
@@ -215,13 +230,13 @@
     }
 
     .decorate-red-line {
-        width: 600px;
+        width: 312px;
     }
 }
 
 @media(max-width: 365px) {
     .text__drones-needs {
-        padding: 62px 33px;
+        padding: 62px 9px;
     }
 }
 

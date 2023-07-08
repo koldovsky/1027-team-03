@@ -7,7 +7,6 @@
     transition: height 500ms;
 }
 
-
 .our-drones-content{
     display: flex;
     justify-content: center;
@@ -48,14 +47,6 @@
     flex-direction: column;
 }
 
-
-.carousle-our-drones {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
 .text-under-pic {
     font-size: 25px;
     font-family: Fjalla One;
@@ -77,30 +68,31 @@
     font-size: 20px;
     color: var(--light-gray);
 }
-.align-stick-hor {
+.align-stick-hor::after {
     position: absolute;
     height: 31px;
-    margin-left: 463px;
 }
 
 .align-stick-ver {
+    display: block;
     position: relative;
     top: -25px;
     left: 8px;
-    
 }
 
 .stick-ver {
-    transition: opacity, 0.2s;
+    display: block;
+    transition: all 0.3s;   
 }
 
 .opacity-stick{
-    opacity: 0;
+    transform: scale(0);
 }
 
 .open-characteristics {
-    display: grid;
-    grid-template-columns: 140px 346px;
+    display: flex;
+    justify-content: space-between;
+    width: 433px;
 }
 
 .open-characteristics:hover {
@@ -124,39 +116,34 @@
     margin-top: 23px;
 }
 
-.carousel-slides {
-    overflow: hidden;
-    width: 1001px;
-    display: flex;
-    flex-direction: row;
-}
 
 .margin-righ {
     margin-right: 30px;
 }
 
-.right-arrow, .left-arrow {
+.owl-next, .owl-prev {
     display: inline-block;
     border-radius: 100%;
-    width: 30px;
+    width: 120px;
     border-width: 0px;
     background-color: var(--main-text-color);
     opacity: 0.8;
+    height: 30px;
+    align-self: center;
 }
-.slider-our-drones {
-    display: flex;
-    flex-direction: row;
-    transition: left 0.5s ease-in-out;
-    position: relative;
-    left: 0px;
-}
-.left-arrow {
+
+.owl-prev{
     transform: rotate(180deg);
 }
 
 
 .arrow-svg_1j4 {
     fill: var(--light-green);
+}
+
+.owl-theme .owl-nav:hover {
+    color: none;
+    background: none;
 }
 
 .list-green {
@@ -187,34 +174,15 @@
     height: auto;
 }
 
-
-
-@media(max-width:1090px) {
-    .carousel-slides {
-        width: 487px;
-    }
+.owl-carousel {
+    display: flex !important;
 }
 
-@media(max-width:572px) {
 
-    .drone-pic {
-        width: 365px;
-    }
 
-    .carousel-slides {
-        width: 365px;
-    }
-}
+
 
 @media(max-width:455px) {
-    
-    .drone-pic {
-        width: 270px;
-    }
-
-    .carousel-slides {
-        width: 276px;
-    }
 
     .text-under-pic {
         display: inline-block;
@@ -222,15 +190,21 @@
     }
 }
 
-@media(max-width:361px) {
-    
-    .drone-pic {
-        width: 200px;
-    }
+@media(max-width:439px) {
 
-    .carousel-slides {
-        width: 202px;
+    .greenline-under-pic-our-drones {
+        width: 260px;
     }
+}
+
+@media(max-width:313px) {
+
+    .greenline-under-pic-our-drones {
+        width: 187px;
+    }
+}
+
+@media(max-width:361px) {
 
     .text-under-pic {
         display: inline-block;
