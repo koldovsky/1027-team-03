@@ -2,8 +2,9 @@
 	padding: 120px 65px 110px 65px;
     max-width: 100%;
 	background-image: url(../img/faq_background.png);
-	background-size: cover;
-    background-attachment: fixed;
+	background-color: gray;
+	position: relative;
+    
 	color: white;
 	transition: height 500ms;
 	
