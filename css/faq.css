@@ -1,5 +1,5 @@
 .faq {
-	padding: 120px 65px 110px 65px;
+	padding: 120px 20px;
     max-width: 100%;
 	background-image: url(../img/faq_background.png);
 	background-color: gray;
@@ -91,4 +91,10 @@
 	.faq_all_items {
 		flex-direction: row
 	}
+}
+
+@media (min-width: 750px ) {
+	.faq {
+		padding: 120px 40px;
+	}	
 }
