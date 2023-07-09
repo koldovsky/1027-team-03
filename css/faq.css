@@ -1,13 +1,10 @@
 .faq {
     max-width: 100%;
-	display: flex;
-    justify-content: center;
-    background-image: url(../img/faq_background.png);
+	background-image: url(../img/faq_background.png);
 	position: relative;
     background-attachment: fixed;
 	color: white;
-	margin-top: 120;
-	margin-bottom: 110;
+	
 }
 
 .faq_header {
@@ -16,8 +13,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-	margin-top: 45px;
-}
+	margin-top: 120;
+	}
 
 .faq_title {
 	display: inline-block;
@@ -54,6 +51,7 @@
     align-items: flex-start;
     align-content: flex-start;
 	margin-top: 45px;
+	margin-bottom: 110;
 	
 }
 
