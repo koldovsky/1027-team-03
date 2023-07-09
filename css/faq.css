@@ -1,5 +1,7 @@
 .faq {
-    max-width: 90%;
+    max-width: 100%;
+	display: flex;
+    justify-content: center;
     background-image: url(../img/faq_background.png);
     background-attachment: fixed;
 	color: white;
