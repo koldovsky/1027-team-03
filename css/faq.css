@@ -1,5 +1,5 @@
 .faq {
-	padding: 120px 110px;
+	padding: 120px 65px 110px 65px;
     max-width: 100%;
 	background-image: url(../img/faq_background.png);
 	position: relative;
@@ -56,7 +56,7 @@
     align-content: flex-start;
 	margin-top: 45px;
 	margin-bottom: 110;
-	max-width: fit-content;
+	min-block-size: 280px;
 	
 }
 
