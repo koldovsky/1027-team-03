@@ -3,6 +3,10 @@
     background-image: url(../img/faq_background.png);
     background-attachment: fixed;
 	color: white;
+	margin-left: 65px;
+	margin-right: 65px;
+	margin-top: 120;
+	margin-bottom: 110;
 }
 
 .faq_header {
@@ -47,8 +51,8 @@
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
+	margin-top: 45px;
 	
-
 }
 
 .faq_item_collum {
