@@ -1,9 +1,11 @@
 .faq {
+	padding: 120px 110px;
     max-width: 100%;
 	background-image: url(../img/faq_background.png);
 	position: relative;
     background-attachment: fixed;
 	color: white;
+	transition: height 500ms;
 	
 }
 
