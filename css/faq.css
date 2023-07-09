@@ -3,6 +3,7 @@
 	display: flex;
     justify-content: center;
     background-image: url(../img/faq_background.png);
+	position: relative;
     background-attachment: fixed;
 	color: white;
 	margin-top: 120;
