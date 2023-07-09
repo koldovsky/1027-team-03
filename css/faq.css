@@ -4,7 +4,7 @@
 	background-image: url(../img/faq_background.png);
 	background-color: gray;
 	background-size: cover;
-	color: white;
+	color: var(--context-text-color);
 	transition: height 500ms;
 	
 }
