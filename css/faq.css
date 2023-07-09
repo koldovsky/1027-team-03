@@ -2,7 +2,6 @@
 	padding: 120px 65px 110px 65px;
     max-width: 100%;
 	background-image: url(../img/faq_background.png);
-	background-color: gray;
 	position: relative;
     
 	color: white;
@@ -16,6 +15,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+	background-color: gray;
+	position: absolute;
 	
 	}
 
