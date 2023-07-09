@@ -3,8 +3,6 @@
     background-image: url(../img/faq_background.png);
     background-attachment: fixed;
 	color: white;
-	margin-left: 65px;
-	margin-right: 65px;
 	margin-top: 120;
 	margin-bottom: 110;
 }
@@ -15,6 +13,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+	margin-top: 45px;
 }
 
 .faq_title {
@@ -35,8 +34,9 @@
     display: inline-block;
     margin: auto;
     color: var(--context-text-color);
+	font-size: 18px;
     font-family: Lato, sans-serif;
-    margin-bottom: 30px;
+	margin-bottom: 30px;
     max-width: 475px 
 }
 .faq_discription {
@@ -85,19 +85,4 @@
 	.faq_all_items {
 		flex-direction: row
 	}
-}
-
-.block1 {
-	padding-top: 34px;
-	padding-left: 28px;
-	padding-bottom: 34px;
-	padding-right: 28px;
-}
-
-.block2 {
-	
-}
-
-.block3 {
-	margin-top: 20px;
 }
