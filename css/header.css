@@ -1,5 +1,5 @@
 .header {
-    background-color: #000000;
+    background-color: var(--main-text-color);
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@
 }
 
 .nav-link {
-    color: #ffffff;
+    color: var(--context-text-color);
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -32,30 +32,9 @@
 }
 
 .container-fluid {
-    background-color: #000000;
+    background-color: var(--main-text-color);
     margin: 0;
     padding: 0;
-}
-
-@media (min-width: 1440px) {
-    .item {
-        margin-right: 30px;
-    }
-
-    .navbar {
-        padding: 0;
-        margin: 0 120px;
-    }
-}
-
-@media (min-width: 2200px) {
-    .item {
-        margin-right: 100px;
-    }
-
-    .navbar {
-        margin: 0 500px;
-    }
 }
 
 .navbar-nav {
@@ -80,27 +59,13 @@
     transition: .5s ease-in-out;
 }
 
-.navbar-toggler,
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 0;
-    position: relative;
-}
-
-.navbar-toggler span {
-    margin: 0;
-    padding: 0;
-}
 
 .toggler-icon {
     display: block;
     position: absolute;
     height: 3px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: var(--context-text-color);
     border-radius: 1px;
     opacity: 1;
     left: 0;
@@ -110,6 +75,24 @@
 
 .middle-bar {
     margin-top: 0px;
+}
+
+
+
+.navbar-toggler .top-bar {
+    top: inherit;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    top: inherit;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    top: inherit;
+    transform: rotate(-135deg);
 }
 
 .navbar-toggler.collapsed .top-bar {
@@ -129,20 +112,4 @@
     position: absolute;
     top: 20px;
     transform: rotate(0deg);
-}
-
-.navbar-toggler .top-bar {
-    top: inherit;
-    transform: rotate(135deg);
-}
-
-.navbar-toggler .middle-bar {
-    opacity: 0;
-    top: inherit;
-    filter: alpha(opacity=0);
-}
-
-.navbar-toggler .bottom-bar {
-    top: inherit;
-    transform: rotate(-135deg);
 }
