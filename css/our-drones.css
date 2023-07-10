@@ -1,5 +1,5 @@
 .drones-info {
-    padding: 100px 20px;
+    padding: 100px 117px;
     height: auto;
     width: 100%;
     background-image: url(../img/our-drones/background-our-drones.webp);
@@ -92,7 +92,7 @@
 .open-characteristics {
     display: flex;
     justify-content: space-between;
-    width: 433px;
+    width: 90%;
 }
 
 .open-characteristics:hover {
@@ -178,8 +178,12 @@
     display: flex !important;
 }
 
-
-
+@media(max-width: 955px) {
+    .slide-second-drones {
+        display: inline-block;
+        width: 296px;
+    }
+}
 
 
 @media(max-width:455px) {
