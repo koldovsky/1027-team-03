@@ -1,0 +1,104 @@
+/* Testimonials */
+
+.testimonials {
+	background: rgb(236, 236, 236);
+}
+
+.test_column {
+	text-align: center;
+}
+
+.test_title {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 40px;
+	letter-spacing: 1.92px;
+	line-height: 52px;
+	padding: 40px 0 0 0;
+	color: rgb(28, 29, 30);
+}
+
+.test_white_col {
+	background: white;
+}
+
+.test_text {
+	font-family: Lato, sans-serif;
+	font-size: 18px;
+	line-height: 28.8px;
+	padding: 40px 15px 25px 15px;
+	color: rgb(81, 81, 81);
+}
+
+.test_name {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+	color: rgb(28, 29, 30);
+	padding-bottom: 25px;
+}
+
+.test_points {
+	padding-bottom: 25px;
+}
+
+.test_round {
+	border-radius: 50%;
+	background: gray;
+	width: 20px;
+	height: 20px;
+	margin: 0 10px;
+	cursor: pointer;
+	opacity: 0.25;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.test_round:hover {
+	background: #555657;
+	opacity: 1;
+}
+
+
+.test_round.active {
+	opacity: 1;
+}
+
+.test_img {
+	object-fit: cover;
+	object-position: right;
+	min-height: 100%;
+}
+
+.test_text.active,
+.test_name.active,
+.test_img.active {
+  display: block;
+}
+
+.test_text,
+.test_name,
+.test_img {
+  display: none;
+  opacity: 0;
+}
+  
+.test_text.active, .test_name.active {
+	opacity: 1;
+	animation: fadeIn 0.3s ease-in-out;
+}
+
+.test_img.active {
+	opacity: 1;
+	animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+}
+  
+
+/* Testimonials */
