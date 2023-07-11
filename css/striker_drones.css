@@ -4,20 +4,20 @@
     background-repeat: no-repeat;
     position: relative;
     background-position: center;
-	width: 100%;
     justify-content: center;
 }
 .striker_drones__container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     height: auto;
     padding: 130px 15px 120px 15px;
+    width: 100%;
 }
 .striker_drones__title {
     font-size: 140px;
     color: var(--context-text-color);
     font-family: Fjalla One, sans-serif;
-    font-weight: 400;
     text-align: left;
     justify-content: flex-start;
 }
@@ -42,7 +42,6 @@
     height: 61px;
     width: 156px;
     font-family: Lato, sans-serif;
-    font-weight: 400;
     font-size: 13.2px;
     color: var(--context-text-color);
     transition-duration: 0.3s;
@@ -58,7 +57,6 @@
     width: 145px;
     color: var(--context-text-color);
     font-family: Lato, sans-serif;
-    font-weight: 400;
     font-size: 13.2px;
     transition-duration: 0.3s;
 }
@@ -242,12 +240,8 @@
     }
 }
 @media (min-width: 1600px) {
-    .striker_drones {
-        padding: 100px 0px 140px 0px;
-    }
     .striker_drones__container {
-        width: 444px;
-        margin: 0px 300px 0px 300px;
+        margin: 0 auto;
     }
     .striker_drones__title {
         font-size: 140px;
